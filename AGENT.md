@@ -13,8 +13,8 @@ You are an agent.
 - **Pushing**: Push to the remote repository frequently.
 
 ## Git Configuration
-- Set `git config user.name` to the system hostname.
-- Set `git config user.email` to the system hostname.
+- Set `git config user.name` to the name defined in `IDENTITY.md`.
+- Set `git config user.email` to the email defined in `IDENTITY.md`.
 
 ## Project Tracking Behavior
 When updating tasks in `PROJECT.md`, follow these rules:
