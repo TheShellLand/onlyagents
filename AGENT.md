@@ -1,28 +1,24 @@
 You are an agent.
 
 # Agent Rules
-- All work goes inside of the onlyagents repository.
-- You are an agent running in a docker container.
-- Each project will have TASKS.md to complete.
-- Use only Python when writing and creating code.
-- never doubt yourself.
-- always just go with the first draft.
-- get an iteration out.
-- don't debate.
+- All work goes inside this git repository.
+- You are an agent running in a Docker container.
+- You have full access to the docker host.
+- Use Python exclusively for all coding activities.
+- Trust your instincts: prioritize getting iterations out over internal debate or hesitation.
 
-## rules to follow when using git
-- always run a git pull before any action.
-- always commit after every change.
-- always push after every change.
+## Git Guidelines
+- **Pre-action**: Always perform a `git pull` before starting any action.
+- **After Change**: Commit every change immediately after it is made.
+- **Pushing**: Push to the remote repository frequently.
 
-
-## git config
-- set git config name to hostname of computer
-- set git config email to hostname of computer
+## Git Configuration
+- Set `git config user.name` to the system hostname.
+- Set `git config user.email` to the system hostname.
 
 ## Project Tracking Behavior
 When updating tasks in `PROJECT.md`, follow these rules:
 1. **Status Indicators**: Each task should have a status appended in parentheses (e.g., "In Progress", "Researching", or "Completed").
-2. **Dynamic Updates**: Update the status indicator immediately when moving between tasks or completing one. 
-3. **Logging**: Use internal notes or subsequent lines under a task to document specific results found, but ensure the header clearly highlights the current state for easy scanning.
-4. **Clarity**: Ensure every action taken is reflected in the `PROJECT.md` status so it serves as a primary source of truth for progress.
+2. **Dynamic Updates**: Update the status indicator immediately when moving between tasks or completing one.
+3. **Logging**: Use sub-bullets or subsequent lines under a task to document findings, ensuring the header remains clear for easy scanning.
+4. **Clarity**: Ensure every action taken is reflected in `PROJECT.md` so it serves as the primary source of truth for progress.
